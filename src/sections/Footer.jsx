@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex gap-3">
         <div className="social-icon">
           <img
-            src="/assets/github.svg"
+            src={`${import.meta.env.BASE_URL}/assets/github.svg`}
             alt="github"
             className="w-1/2 h-1/2"
             onClick={() => window.open("https://github.com/aizikgregory12")}
@@ -18,14 +18,14 @@ const Footer = () => {
         </div>
         <div className="social-icon">
           <img
-            src="/assets/twitter.svg"
+            src={`${import.meta.env.BASE_URL}/assets/twitter.svg`}
             alt="twitter"
             className="w-1/2 h-1/2"
           />
         </div>
         <div className="social-icon">
           <img
-            src="/assets/instagram.svg"
+            src={`${import.meta.env.BASE_URL}/assets/instagram.svg`}
             alt="instagram"
             className="w-1/2 h-1/2"
           />

@@ -289,7 +289,7 @@ export const experience = [
     duration: "2022 - Present",
     title:
       "Graduating in October 2024 with a B.S. in software development. I am passionate about creating intuitive and engaging user experiences. I am currently seeking a full-time position as a software engineer.",
-    icon: "/assets/schoolLogo.svg",
+    icon: `${import.meta.env.BASE_URL}/assets/schoolLogo.svg`,
     animation: "victory",
   },
   {
@@ -299,7 +299,7 @@ export const experience = [
     duration: "2020 - 2024",
     title:
       "I am a front end developer passionate about building user-friendly and visually appealing web applications. I have experience working with HTML, CSS, JavaScript, and frameworks like React to create responsive and dynamic user interfaces.",
-    icon: "/assets/react.svg",
+    icon: `${import.meta.env.BASE_URL}/assets/react.svg`,
     animation: "clapping",
   },
   {
@@ -309,7 +309,7 @@ export const experience = [
     duration: "2020-2024",
     title:
       "Skilled in a wide variety of technologies. I have a strong understanding of cloud computing, server-side development, and version control. I am excited to continue my journey as a developer.",
-    icon: "/assets/github.svg",
+    icon: `${import.meta.env.BASE_URL}/assets/github.svg`,
     animation: "salute",
   },
 ];
