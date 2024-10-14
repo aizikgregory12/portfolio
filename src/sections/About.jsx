@@ -29,7 +29,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Aizik Gregory</p>
               <p className="grid-subtext">
-                With a degree from Purdue University
+                With a Software Development degree from Purdue Global
+                University, I am passionate about creating intuitive and
+                engaging user experiences
               </p>
             </div>
           </div>
