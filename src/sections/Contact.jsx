@@ -22,8 +22,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_58q66xz",
+        "template_wp95alo",
         {
           from_name: form.name,
           to_name: "Aizik Gregory",
@@ -31,7 +31,7 @@ const Contact = () => {
           to_email: "aizik.gregory@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "f1IOuEB1ksBMKqWWX"
       )
       .then(
         () => {
